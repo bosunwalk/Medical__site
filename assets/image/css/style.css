@@ -85,6 +85,8 @@ nav .toggle__btn {
 .action__btn:hover {
     scale: 1.05;
     color: #fff;
+    cursor: pointer;
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
 }
 
 .action__btn:active {
@@ -238,7 +240,6 @@ nav .toggle__btn {
 }
 
 .header__text h1 {
-
     font-size: 2.5rem;
     line-height: 2.5rem;
     color: var(--title-color);
@@ -265,8 +266,14 @@ nav .toggle__btn {
     background: var(--button-color);
     width: 280px;
     height: 100%;
-    border: 2px solid var(--button-color);
+    border: 2px solid #fff;
 }
+
+.btn__body .btn1:hover {
+    cursor: pointer;
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+
 
 /* .btn__body .btn2 {
     display: inline-flex;
@@ -756,7 +763,7 @@ form .button input:hover {
 }
 
 .blog__para {
-    color: #ffffff;
+    color: var(--para-color);
     text-transform: capitalize;
     font-size: 16px;
     font-weight: 700;
@@ -764,7 +771,7 @@ form .button input:hover {
 
 .blog__grid {
 
-    margin-top: 5px;
+    /* margin-top: 5px; */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
