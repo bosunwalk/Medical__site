@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/assets/image/css/style.css" />
     <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/image/css/swiper-bundle.min.css">
+
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
       crossorigin="anonymous"
@@ -39,7 +45,7 @@
           </li>
         </ul>
 
-        <a href="#" class="action__btn">get started</a>
+        <a href="#membership" class="action__btn">Membership</a>
         <div class="toggle__btn">
           <i class="fa-solid fa-bars"></i>
         </div>
@@ -47,18 +53,18 @@
 
       <div class="dropdown__menu">
         <li class="link">
-            <a href="#home">home</a>
-          </li>
-          <li class="link">
-            <a href="#service">services</a>
-          </li>
-          <li class="link">
-            <a href="#staff">staff</a>
-          </li>
-          <li class="link">
-            <a href="#blog">blog</a>
-          </li>
-          <li><a href="#" class="action__btn">get started</a></li>
+          <a href="#home">home</a>
+        </li>
+        <li class="link">
+          <a href="#service">services</a>
+        </li>
+        <li class="link">
+          <a href="#staff">staff</a>
+        </li>
+        <li class="link">
+          <a href="#blog">blog</a>
+        </li>
+        <li><a href="#membership" class="action__btn">Membership</a></li>
       </div>
     </header>
 
@@ -72,8 +78,7 @@
           </h1>
 
           <div class="btn__body">
-            <a href="#" class="btn1">view more</a>
-            <a href="#" class="btn2">purchase</a>
+            <a href="#" class="btn1">see a dentist</a>
           </div>
         </div>
       </div>
@@ -84,73 +89,75 @@
         <span class="all">MY</span><span class="smiles">THIRTY2</span>
         <h2 class="service__render">our services</h2>
       </div>
+
       <div class="render__grid">
-        <div class="render">
-          <div class="center">
-            <img src="/assets/image/root__canal.png" alt="" />
+        
+          <div class="render swiper-slide">
+            <div class="center">
+              <img src="/assets/image/root__canal.png" alt="" />
+            </div>
+
+            <h2>Root canal specialist</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+              Repellendus, sequi.
+            </p>
           </div>
 
-          <h2>Root canal specialist</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-            Repellendus, sequi.
-          </p>
-        </div>
-
-        <div class="render">
-          <div class="center">
-            <img src="/assets/image/alignment.png" alt="" />
+          <div class="render">
+            <div class="center">
+              <img src="/assets/image/alignment.png" alt="" />
+            </div>
+            <h2>Alignment specialist</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+              Repellendus, sequi.
+            </p>
           </div>
-          <h2>Alignment specialist</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-            Repellendus, sequi.
-          </p>
-        </div>
 
-        <div class="render">
-          <div class="center">
-            <img src="/assets/image/cosmetic.png" alt="" />
+          <div class="render">
+            <div class="center">
+              <img src="/assets/image/cosmetic.png" alt="" />
+            </div>
+            <h2>cosmetic dentistry</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+              Repellendus, sequi.
+            </p>
           </div>
-          <h2>cosmetic dentistry</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-            Repellendus, sequi.
-          </p>
-        </div>
 
-        <div class="render">
-          <div class="center">
-            <img src="/assets/image/oral__hygiene.png" alt="" />
+          <div class="render">
+            <div class="center">
+              <img src="/assets/image/oral__hygiene.png" alt="" />
+            </div>
+            <h2>oral hygiene</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+              Repellendus, sequi.
+            </p>
           </div>
-          <h2>oral hygiene</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-            Repellendus, sequi.
-          </p>
-        </div>
 
-        <div class="render">
-          <div class="center">
-            <img src="/assets/image/dental__advise.png" alt="" />
+          <div class="render">
+            <div class="center">
+              <img src="/assets/image/dental__advise.png" alt="" />
+            </div>
+            <h2>live dental advisory</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+              Repellendus, sequi.
+            </p>
           </div>
-          <h2>live dental advisory</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-            Repellendus, sequi.
-          </p>
-        </div>
 
-        <div class="render">
-          <div class="center">
-            <img src="/assets/image/cavity__inspection.png" alt="" />
+          <div class="render">
+            <div class="center">
+              <img src="/assets/image/cavity__inspection.png" alt="" />
+            </div>
+            <h2>cavity inspection</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+              Repellendus, sequi.
+            </p>
           </div>
-          <h2>cavity inspection</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-            Repellendus, sequi.
-          </p>
-        </div>
       </div>
     </section>
 
@@ -401,20 +408,21 @@
         </div>
       </div>
     </div>
+
+   
   </body>
+   <script>
+      const toggleBtn = document.querySelector(".toggle__btn");
+      const toggleBtnIcon = document.querySelector(".toggle__btn i");
+      const dropDownMenu = document.querySelector(".dropdown__menu");
 
-  <script>
-    const toggleBtn = document.querySelector('.toggle__btn')
-    const toggleBtnIcon = document.querySelector('.toggle__btn i')
-    const dropDownMenu = document.querySelector('.dropdown__menu')
+      toggleBtn.onclick = function () {
+        dropDownMenu.classList.toggle("open");
+        const isOpen = dropDownMenu.classList.contains("open");
 
-    toggleBtn.onclick = function () {
-      dropDownMenu.classList.toggle('open')
-      const isOpen = dropDownMenu.classList.contains('open')
-
-      toggleBtnIcon.classList = isOpen
-      ? 'fa-solid fa-xmark'
-      : 'fa-solid fa-bars'
-    }
-  </script>
+        toggleBtnIcon.classList = isOpen
+          ? "fa-solid fa-xmark"
+          : "fa-solid fa-bars";
+      };
+    </script>
 </html>
