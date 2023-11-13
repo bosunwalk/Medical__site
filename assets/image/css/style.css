@@ -307,6 +307,7 @@ nav .toggle__btn {
     justify-content: center;
     flex-wrap: wrap;
     gap: 2rem;
+
 }
 
 .render {
@@ -367,8 +368,6 @@ nav .toggle__btn {
 
 .vid__grid {
     display: flex;
-
-
 }
 
 .vid__grid .vid__text {
@@ -977,6 +976,7 @@ form .button input:hover {
     .footer__container {
         gap: 2rem;
     }
+
 }
 
 @media (max-width: 900px) {
@@ -997,9 +997,7 @@ form .button input:hover {
     .footer__container {
         grid-template-columns: repeat(2, 1fr);
     }
-}
 
-@media (max-width: 900px) {
     .dropdown__menu {
         left: 2rem;
         width: unset;
